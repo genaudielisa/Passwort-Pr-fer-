@@ -17,6 +17,18 @@ Ein kleines Python-Programm, das prüft, wie sicher ein Passwort ist, und Tipps 
 python passwort_pruefer.py
 ```
 
+## Passwort-Generator
+`passwort_generator.py` erzeugt zufällige, sichere Passwörter:
+- Länge und Anzahl frei wählbar
+- Groß-/Kleinbuchstaben, Ziffern und Sonderzeichen einzeln an- und abschaltbar
+- optional ohne verwechselbare Zeichen (l, I, 1, O, 0)
+- mindestens ein Zeichen aus jeder gewählten Gruppe
+- nutzt das Modul `secrets` (kryptografisch sicherer Zufall statt `random`)
+
+```
+python passwort_generator.py
+```
+
 ## Was ich dabei gelernt habe
 <!-- Hier in eigenen Worten 3–4 Punkte ergänzen, zum Beispiel: -->
 - Wie man Code in Funktionen aufteilt
